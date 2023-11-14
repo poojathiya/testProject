@@ -1,0 +1,36 @@
+﻿.circle-logo {
+    width: 100px; /* Set your desired width */
+    height: 100px; /* Set your desired height */
+    border-radius: 50%;
+    background-image: url('/WBLogo.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensures the circle is above the card content */
+}
+
+.fontstyle {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #87CEEB; /* Light Sky Blue */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(135, 206, 235, 0.5), rgba(255, 255, 255, 0.5));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(135, 206, 235, 0.5), rgba(255, 255, 255, 0.5));
+}
+
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #87CEEB; /* Light Sky Blue */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(135, 206, 235, 1), rgba(255, 255, 255, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(135, 206, 235, 1), rgba(255, 255, 255, 1));
+}
+
